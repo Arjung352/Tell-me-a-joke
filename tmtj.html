@@ -8,13 +8,19 @@
     <title>Tell me a Joke</title>
     <link href="tmtj.css" rel="stylesheet" type="text/css" />
     <link href="icon.jpg" rel="icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="top"><img src="joke 1.png" height="100" width="250" /></div>
-    <div id="joke">This is a sample joke</div>
-    <div id="container">
-      <button id="button" onClick="render()">Next Joke</button>
-      <!-- <button id="button" onClick="window.location.reload();">Next Joke</button> -->
+    <div class="app">
+      <div id="joke"></div>
+      <div id="punchline"></div>
+      <div id="container">
+        <button id="button">Next Joke</button>
+      </div>
     </div>
     <script src="script.js"></script>
     <script src="tmtj.js" theme="blue" defer></script>
